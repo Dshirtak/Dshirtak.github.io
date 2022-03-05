@@ -1,0 +1,148 @@
+#footerContainer {
+  position: relative;
+  height: 550px;
+  background-color: #3c3c3b;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#footerRows {
+  padding: 4%;
+  width: 100%;
+  height: 470px;
+  display: flex;
+}
+.footerColumn {
+  flex: 1 1 0px;
+}
+.footerColumn > img {
+  margin-bottom: 10px;
+}
+
+.footerColumn > span {
+  display: block;
+  margin-left: 0px;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;  font-size: 13px;
+  color: #ffffff;
+}
+#rightColumn {
+  margin-left: 20px;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+#rightColumn > span {
+  font-size: 17px;
+}
+
+#mailInput {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  margin-top: 10px;
+
+}
+#mailInput > button  {
+right: 2px;
+  position: absolute;
+  text-align: left;
+  width: 110px;
+  height: 84%;
+  background: #fff200 0% 0% no-repeat padding-box;
+  border-radius: 19px;
+  margin-top: 0.9%;
+  margin-right: 0.5%;
+  opacity: 1;
+  padding-left: 3%;
+  font-weight: bold;
+}
+#mailInput > img{
+    position: absolute;
+    right: 13px;
+    top: 12px;
+}
+input {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+  border: none;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+input[id^='subscribeInput']::-webkit-input-placeholder {
+  margin-left: -30px !important;
+  color: #542e90;
+  font-size: 14px;
+}
+
+#linksContainer{
+    margin-top: 30px;
+    display: flex;
+
+}
+.listLinks{
+    color: white !important;
+    font-size: 16px !important;
+}
+#aboutSection{
+    width: 75%;
+    border-right: 0.25px solid rgb(134, 134, 134); 
+}
+
+.iconsContainer{
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.iconsContainer>span{
+    margin-left: 5px;
+    color: white;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;    font-size: 16px;
+}
+#leftColumn{
+    border-right:0.25px solid #868686 ;
+    padding-right: 1%;
+}
+
+#copyRightsContainer{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: "10px",
+}
+#copyLeftColumn{
+    flex: 1 1 0px;
+    text-align: left;
+}
+#copyLeftColumn>span{
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.middleCopyImages{
+    height: 30px;
+    margin-left: 10px;
+}
+#rightCopyColumn{
+    flex: 1 1 0px;
+    text-align: end;
+}
+#rightCopyColumn>span{
+    color: white;
+    font-weight: normal;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}

@@ -1,0 +1,88 @@
+#firstHeaderContainer {
+  height: 84px;
+  width: 100%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0.92px 3px #00000080;
+  opacity: 1;
+  
+}
+
+#searchInput {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.5004362463951111px solid #d8d8d8;
+  border-radius: 24px;
+  opacity: 1;
+  width: 350px;
+  height: 45px;
+}
+#searchIcon {
+  position: absolute;
+  left: 10px;
+  top:10px;
+  width: 24px;
+  height: 24px;
+}
+
+::placeholder {
+  position: absolute;
+  text-align: left;
+  justify-content: center;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+    font-size: 16px;
+  top: 15px;
+  left: 44px;
+
+  font-weight: bold;
+}
+
+#middleAdidasIcon {
+  margin: 0 auto;
+  width: 85px;
+  height: 57px;
+}
+
+
+
+#subHeaderOperations{
+  display: flex;
+  flex: 1;
+  position: relative;
+}
+.cartContainer>img {
+  width: 24px;
+  height: 24px;
+  
+  
+}
+.cartContainer{
+  flex: 1 1 0;
+  display: flex;
+  align-items: center;
+  text-align: center; 
+  justify-content: center; 
+  position: relative;
+}
+
+.cartContainer>span {
+  width: 24px;
+  height: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  opacity: 1;
+  }
+
+.cartCount{
+  position: absolute;
+  width: 15px !important;
+  left: 34%;
+  top: 12%;
+  height: 15px !important;
+  margin-left: 0px !important;
+  
+  
+}

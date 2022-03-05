@@ -1,0 +1,41 @@
+.cartItem {
+  width: 100%;
+  margin: 0 auto;
+  height: 120px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.75px solid #ececec;
+  border-radius: 7px;
+  opacity: 1;
+  padding: 8px;
+  display: flex;
+  margin-top: 5px;
+}
+
+.cartItem>img{
+
+}
+
+.descriptionContainer{
+    margin-left: 16px ;
+}
+.cartHeader{
+  font-size: 12px;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #1D1D1B,
+}
+
+.cartQuantity{
+  color: rgb(60, 60, 59);
+  font-weight: bold;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.currency{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+    font-size: 14px;
+    margin-left: 4px;
+    font-weight: 400;
+}

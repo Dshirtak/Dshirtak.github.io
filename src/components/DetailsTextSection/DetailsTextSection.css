@@ -1,0 +1,57 @@
+#detailsTextContainer {
+  flex: 0 0 50%;
+  background: wheat;
+  height: 100%;
+  margin-top: "50px";
+}
+
+#brandImage {
+  margin: 10px;
+  width: 60px;
+  height: 40px;
+}
+
+.detailsContainer>span{
+    display:block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size:18px;
+    margin:10px;
+}
+
+#headerImage{
+  margin: 10px; width: 60px; height: 40px; 
+}
+.clothCategory{
+  
+    margin: 10px;
+    margin-bottom: 20px;
+    color: #A7A9AC;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+#saleContainer{
+  display: flex; 
+  width: 100%; 
+  text-align: start 
+}
+
+.subHeaderSpan{
+  
+    position: relative;
+    top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btnContainer{
+  width:252px;
+  height:54px;
+}
+hr{
+  width: 100%;
+  margin-top: 20px;
+}

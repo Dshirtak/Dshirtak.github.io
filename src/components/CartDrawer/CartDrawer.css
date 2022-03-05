@@ -1,0 +1,45 @@
+.ant-drawer-title {
+    color: #542E90 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 28px !important;
+    border: none !important;
+    text-align: center;
+
+}
+
+.ant-drawer-header {
+    padding: 16px 1px !important;
+    border: none !important;
+}
+
+.ant-drawer-close {
+    position: absolute !important;
+    right: 0px;
+}
+
+#cartHeader{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px !important;
+    margin-left: 0px !important;
+    font-weight: 700;
+
+}
+#totalDiv{
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.btnDiv{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+}
+
+.cartBtn{
+    width:50%;
+    height: 48px !important;
+}
