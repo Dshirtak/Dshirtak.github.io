@@ -48,7 +48,7 @@
 right: 2px;
   position: absolute;
   text-align: left;
-  width: 110px;
+  width: 120px;
   height: 84%;
   background: #fff200 0% 0% no-repeat padding-box;
   border-radius: 19px;
@@ -61,7 +61,7 @@ right: 2px;
 #mailInput > img{
     position: absolute;
     right: 13px;
-    top: 12px;
+    top: 13px;
 }
 input {
   position: relative;

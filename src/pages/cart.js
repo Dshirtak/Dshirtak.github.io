@@ -59,8 +59,15 @@ class CartPage extends Component {
   };
 
   componentDidMount() {
+    let config = {
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS',
+        'Access-Control-Allow-Headers': 'Origin, Content-Type, X-Auth-Token'
+      }
+    }
     axios
-      .get("http://localhost:3900/api/product")
+      .get("https://nasnavback.herokuapp.com/api/product",config)
       .then((response) => {
         this.setState({
           productImages: [...response.data.productsImages],
